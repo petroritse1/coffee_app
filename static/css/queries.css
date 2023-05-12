@@ -1,0 +1,129 @@
+@media screen and (min-width:37.5em){
+    
+    
+    .feature{
+        display:grid;
+        grid-template-columns: repeat(2,1fr);
+        
+    }
+    html{
+        font-size:50%;
+    }
+}
+@media screen and (min-width:600px){
+    .navbar{
+        width:40%;
+        font-size:5.2rem;
+    }
+    .composition{
+        display:flex;
+        flex-direction:row;
+        align-items:center;
+        justify-content: space-between;
+        gap:4rem;
+        
+        
+    }
+    .composition__block{
+       max-width:50%;
+    }
+    
+    .product__features{
+        display:grid;
+        grid-template-columns:1fr 1fr;
+        align-items:center;
+        row-gap:3rem;
+        column-gap:3rem;
+    }
+    .card{
+        display:grid;
+        grid-template-columns:1fr 1fr;
+        align-items:center;
+        row-gap:4rem;
+        column-gap:4rem;
+    }
+    
+}
+@media screen and (min-width:800px){
+
+    .navbar{
+        width:40%;
+        font-size:7.2rem;
+    }
+    .product__features{
+        display:grid;
+        grid-template-columns:repeat(3,1fr);
+    }
+    .product__block{
+        max-width: 70rem;
+    }
+    .contact__box{
+        display:flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap:1rem;
+    
+    }
+    .contact{
+        width:30%;
+    }
+    .form{
+        /* max-width:60rem; */
+
+        width:60%;
+    }
+    .form__input{
+        width:95%;
+    }
+    .btn__form{
+        width:100%;
+    }
+    .card{
+        display:grid;
+        grid-template-columns:repeat(3,1fr);
+        column-gap:4rem;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .form{
+        max-width: 80rem;
+    }
+    
+    html{
+        font-size:56%;
+    }
+
+}
+@media screen and (min-width:1000px){
+    .product{
+        display:flex;
+        align-items: center;
+        justify-content:space-between;
+        gap:2rem;
+    }
+    .product__features{
+        display:grid;
+        grid-template-columns:repeat(3,1fr);
+        column-gap:5rem;
+    }
+
+}
+@media screen and (min-width:1100px){
+    .feature{
+        display:flex;
+        align-items: center;
+        justify-content: center;
+         
+    }
+    .feature__row{
+        width:50%;
+    }
+    .contact-box{
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        gap:1rem;
+
+    }
+}
